@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+> Please make sure Docker is installed on your machine
+
+1. Start the app by running `docker-compose up`
+2. Make sure the backend is running and able to connect to your local database by pointing your browser to `http://localhost:3000/api/ping`
+3. Once you receive that confirmation, you can validate that the frontend can connect to the backend properly by creating a new user at `http://localhost:3001/register`.
